@@ -30,6 +30,7 @@ The code is structured as follows:
 - Results: The folder to save the experimental results, and you need to create the subfolders by your way.
 - AL_methods:
   - OMAL: The proposed method.
+  - Random: The random sampling.
 
 ## Datasets
 
