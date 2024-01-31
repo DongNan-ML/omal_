@@ -38,12 +38,9 @@ The datasets used in this study are all publicly available. The citations of the
 
 ## License
 Our source code is licensed under the Apache 2.0 license. 
-We also include the MIT License of the modAL package since we used the source code of it.
-
+We also include the MIT License of the modAL package since we used the source code of it (multi_argmax function in our method).
 
 ## Citations
-
-We used the source code of modAL (multi_argmax function in our method). The citation is:
 
 @article{modAL2018,
     title={mod{AL}: {A} modular active learning framework for {P}ython},
