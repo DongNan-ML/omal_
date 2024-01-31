@@ -29,22 +29,11 @@ The code is structured as follows:
 - Datasets: Raw data for each dataset.
 - Results: The folder to save the experimental results, and you need to create the subfolders by your way.
 - AL_methods:
-  - Greedy: The Greedy method proposed by Wu, Lin and Huang (2019). We used the batch-mode Greedy-iGS here.
-  - LCMD: The Largest Cluster Maximum Distance Method, proposed by Holzm{\"u}ller, Zaverkin, K{\"a}stner and Steinwart (2023).
-  - QBC: The Query-By-Committee method, proposed by RayChaudhuri and Hamey (1995). We used the batch-mode QBC here.
-  - Random: Random Sampling.
   - OMAL: The proposed method.
 
 ## Datasets
 
 The datasets used in this study are all publicly available. The citations of the datasets are listed under the Datasets folder.
-
-
-## LCMD
-
-- This repository contains the implementation of the comparison method LCMD method (version 3) from https://github.com/dholzmueller/bmdal_reg with the DOI number: 10.18419/darus-807
-
-- License: (Copied from the original LCMD readme) This source code is licensed under the Apache 2.0 license. However, the implementation of the acs-rf-hyper kernel transformation in `bmdal/features.py` is adapted from the source code at [https://github.com/rpinsler/active-bayesian-coresets](https://github.com/rpinsler/active-bayesian-coresets), which comes with its own (non-commercial) license. Please respect this license when using the acs-rf-hyper transformation directly from `bmdal/features.py` or indirectly through the interface provided at `bmdal/algorithms.py`.
 
 
 ## License
@@ -54,36 +43,7 @@ We also include the MIT License of the modAL package since we used the source co
 
 ## Citations
 
-```bibtex
-@inproceedings{raychaudhuri1995minimisation,
-  title={Minimisation of data collection by active learning},
-  author={RayChaudhuri, Tirthankar and Hamey, Leonard GC},
-  booktitle={Proceedings of ICNN'95-International Conference on Neural Networks},
-  volume={3},
-  pages={1338--1341},
-  year={1995},
-  organization={IEEE}
-}
-
-@article{wu2019active,
-  title={Active learning for regression using greedy sampling},
-  author={Wu, Dongrui and Lin, Chin-Teng and Huang, Jian},
-  journal={Information Sciences},
-  volume={474},
-  pages={90--105},
-  year={2019},
-  publisher={Elsevier}
-}
-
-@article{holzmuller2023framework,
-  title={A framework and benchmark for deep batch active learning for regression},
-  author={Holzm{\"u}ller, David and Zaverkin, Viktor and K{\"a}stner, Johannes and Steinwart, Ingo},
-  journal={Journal of Machine Learning Research},
-  volume={24},
-  number={164},
-  pages={1--81},
-  year={2023}
-}
+We used the source code of modAL (multi_argmax function in our method). The citation is:
 
 @article{modAL2018,
     title={mod{AL}: {A} modular active learning framework for {P}ython},
