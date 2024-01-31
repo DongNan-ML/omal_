@@ -1,4 +1,4 @@
-# Online Meta-Active Learning for Regression
+# Online Meta-learned Gradient Norms for Active Learning in Science and Technology
 
 This repository contains code accompanying our project "Online Meta-learned Gradient Norms for Active Learning in Science and Technology". 
 
