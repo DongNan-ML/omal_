@@ -26,7 +26,7 @@ The latest tested versions of the dependencies are listed:
 The code is structured as follows:
 - Seeds: A set of shared seeds among different datasets for the reproducible results.
 - Data_Processing: The processing code for each dataset.
-- Datasets: Raw data for each dataset.
+- Datasets: References list for the data sets used in this research.
 - Results: The folder to save the experimental results, and you need to create the subfolders by your way.
 - AL_methods:
   - OMAL: The proposed method.
