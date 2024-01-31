@@ -42,6 +42,8 @@ We also include the MIT License of the modAL package since we used the source co
 
 ## Citations
 
+```bibtex
+
 @article{modAL2018,
     title={mod{AL}: {A} modular active learning framework for {P}ython},
     author={Tivadar Danka and Peter Horvath},
