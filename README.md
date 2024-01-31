@@ -37,14 +37,14 @@ The code is structured as follows:
 
 ## Datasets
 
-The datasets used in this study are all publicly available, and we have put their raw data into the Datasets folder. The citations of the datasets are listed under the Datasets folder.
+The datasets used in this study are all publicly available. The citations of the datasets are listed under the Datasets folder.
 
 
 ## LCMD
 
 - This repository contains the implementation of the comparison method LCMD method (version 3) from https://github.com/dholzmueller/bmdal_reg with the DOI number: 10.18419/darus-807
 
-- License: (Copied from the original readme) This source code is licensed under the Apache 2.0 license. However, the implementation of the acs-rf-hyper kernel transformation in `bmdal/features.py` is adapted from the source code at [https://github.com/rpinsler/active-bayesian-coresets](https://github.com/rpinsler/active-bayesian-coresets), which comes with its own (non-commercial) license. Please respect this license when using the acs-rf-hyper transformation directly from `bmdal/features.py` or indirectly through the interface provided at `bmdal/algorithms.py`.
+- License: (Copied from the original LCMD readme) This source code is licensed under the Apache 2.0 license. However, the implementation of the acs-rf-hyper kernel transformation in `bmdal/features.py` is adapted from the source code at [https://github.com/rpinsler/active-bayesian-coresets](https://github.com/rpinsler/active-bayesian-coresets), which comes with its own (non-commercial) license. Please respect this license when using the acs-rf-hyper transformation directly from `bmdal/features.py` or indirectly through the interface provided at `bmdal/algorithms.py`.
 
 
 ## License

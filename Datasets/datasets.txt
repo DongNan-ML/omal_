@@ -1,1 +1,54 @@
 The data sets used in this research are all public and can be downloaded from the link provided in the reference list of the paper.
+
+@misc{Magne:2004,
+author = {Magne, Aldrin},
+title = {{NO2}},
+howpublished= {\url{http://lib.stat.cmu.edu/datasets/NO2.dat}},
+year = {2004}
+}
+
+@misc{Ross:1993,
+  doi = {10.24432/C5859H},
+  url ={https://archive.ics.uci.edu/ml/datasets/auto+mpg},
+  author = {Ross, Quinlan},
+  title = {Auto MPG},
+  publisher = {UCI Machine Learning Repository},
+  year = {1993}
+}
+
+@misc{efron2004least,
+  title={Diabetes Data},
+  author={Efron, Bradley and Hastie, Trevor and Johnstone, Iain and Tibshirani, Robert},
+  howpublished = {\url{https://www4.stat.ncsu.edu/~boos/var.select/diabetes.tab.txt}},
+  year={2004}
+}
+
+
+@misc{barnard2017silver,
+  doi = {10.25919/5D22D20BC543E},
+  url = {https://data.csiro.au/collection/csiro:23472v3},
+  author = {Barnard,  Amanda and Sun,  Baichuan and Motevalli Soumehsaraei,  Benyamin and Opletal,  George},
+  title = {Silver Nanoparticle Data Set},
+  publisher = {CSIRO},
+  year = {2017}
+}
+
+
+@misc{Cortez:2009,
+  doi = {10.24432/C56S3T},
+  url = {https://archive.ics.uci.edu/dataset/186},
+  author = {Cortez, Paulo and Cerdeira, Ant{\'o}nio and Almeida, Fernando and Matos, Telmo and Reis, Jos{\'e}},
+  title = {Wine Quality},
+  publisher = {UCI Machine Learning Repository},
+  year = {2009}
+}
+
+
+@misc{barnard2019neutral,
+  doi = {10.25919/5E30B45F9852C},
+  url = {https://data.csiro.au/collection/csiro:42101v1},
+  author = {Barnard,  Amanda and Motevalli Soumehsaraei,  Benyamin and Sun,  Baichuan},
+  title = {Periodic Graphene Oxide Data Set},
+  publisher = {CSIRO},
+  year = {2019}
+}
