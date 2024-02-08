@@ -31,6 +31,14 @@ The code is structured as follows:
 - AL_methods:
   - OMAL: The proposed method.
   - Random: The random sampling.
+  - Greedy: The Greedy method proposed by Wu, Lin and Huang (2019). We used the random initialisation and batch-mode Greedy-iGS here.
+  - QBC: The Query-By-Committee method, proposed by RayChaudhuri and Hamey (1995). We used the batch-mode QBC here.
+
+
+## LCMD
+
+- The comparison method LCMD method (version 3) can be retrieved from https://github.com/dholzmueller/bmdal_reg with the DOI number: 10.18419/darus-807
+
 
 ## Datasets
 
@@ -51,5 +59,36 @@ We also include the MIT License of the modAL package since we used the source co
     url={https://github.com/modAL-python/modAL},
     note={available on arXiv at \url{https://arxiv.org/abs/1805.00979}}
 }
+
+@inproceedings{raychaudhuri1995minimisation,
+  title={Minimisation of data collection by active learning},
+  author={RayChaudhuri, Tirthankar and Hamey, Leonard GC},
+  booktitle={Proceedings of ICNN'95-International Conference on Neural Networks},
+  volume={3},
+  pages={1338--1341},
+  year={1995},
+  organization={IEEE}
+}
+
+@article{wu2019active,
+  title={Active learning for regression using greedy sampling},
+  author={Wu, Dongrui and Lin, Chin-Teng and Huang, Jian},
+  journal={Information Sciences},
+  volume={474},
+  pages={90--105},
+  year={2019},
+  publisher={Elsevier}
+}
+
+@article{holzmuller2023framework,
+  title={A framework and benchmark for deep batch active learning for regression},
+  author={Holzm{\"u}ller, David and Zaverkin, Viktor and K{\"a}stner, Johannes and Steinwart, Ingo},
+  journal={Journal of Machine Learning Research},
+  volume={24},
+  number={164},
+  pages={1--81},
+  year={2023}
+}
+
 
 ```
